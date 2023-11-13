@@ -1,9 +1,11 @@
 # DeepBID
-Deep Batch Integration and Denoise of Single-Cell RNA-seq Data
+Deep Batch Integration and Denoise of Single-Cell RNA-seq Data. 
+
+DeepBID was designed for batch integration of single-Cell RNA-seq data by deep clustering with two Kullback-Leibler divergence losses.
 
 ## Dependency
 
-Programs implemented by pytorch reqiure: 
+The programs require you to create a PyTorch environment and install the following packages
 
 - python 3.6
 - pytorch 1.7.1
@@ -14,12 +16,12 @@ Programs implemented by pytorch reqiure:
 - pandas
 
 
-## Brief Introduction
+## Brief usage
 
-- DeepBID.py  the main code for single-cell RNA-seq data
-- utils.py functions used in experiemnts.
-- metrics.py codes for evaluation of clustering results. 
-- layers.py function of NB and ZINB
+- DeepBID.py :the main code for single-cell RNA-seq data
+- utils.py : functions used in experiemnts.
+- metrics.py ：code for evaluation of clustering results. 
+- layers.py ：functions of NB and ZINB
 
 Samples to run the code is given as follows
 
